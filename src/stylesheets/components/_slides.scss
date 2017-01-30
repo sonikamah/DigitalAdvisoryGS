@@ -1,0 +1,130 @@
+
+.content{
+  height: 100%;
+  padding: 50px 70px;
+  font-size: 32px;
+  line-height: 62px;
+  text-align: center;
+  &__header{
+    display: inline-block;
+    width: 100%;
+  }
+  &__title{
+    font-size: 30px;
+    padding: 20px;
+  }
+  &__button{
+     display: block;
+     margin: 25px;
+  }
+}
+
+.warning-msg-show{
+  font-size: 18px;
+  padding: 10px 30px;
+  transition: transform 100ms ease-in-out;
+}
+.warning-msg-hide{
+  display: none;
+}
+.prev{
+  background: #fff url('../assets/images/prev.jpg') no-repeat;
+  @include size(50px, 40px);
+  display: inline-block;
+  float: left;
+}
+
+.steps{
+  font-size: 16px;
+  text-align:right;
+}
+.options{
+   margin: 0 auto;
+   &__container{
+     display: inline-block;
+     padding: 0 10px 10px 0;
+     margin-right: 30px;
+     vertical-align: middle;
+     height: 150px;
+     &:first-child{
+        margin-left: 30px;
+     }
+   }
+}
+.input-radio{
+  box-sizing: border-box;
+  padding: 0;
+  left: -999em;
+  position: absolute;
+}
+
+.option-button{
+  background: linear-gradient(#fefefe,#e7e7e7 50%);
+  border: 1px solid #BBB;
+  color: grey !important;
+  width: 210px;
+  min-height: 70px;
+  position: relative;
+  font-size: 22px;
+  border-radius: 10px;
+  padding: 20px 0 6px;
+  height: 150px;
+  box-shadow: 3px 3px;
+
+  &:hover{
+    background: #7399c6;
+    color: white !important;
+  }
+  &__selected{
+    background: #7399c6;
+    border: 3px solid grey;
+    box-shadow: 3px 3px black;
+    color: white !important;
+  }
+}
+
+.icon-checkMark{
+  transition: all linear 350ms;
+  background: url('../assets/images/icon-checkmark.jpg') no-repeat;
+  background-size: 53px;
+  background-color: #fff;
+  background-position: 7px -7px;
+  height: 54px;
+  width: 52px;
+  position: absolute;
+  left: 90%;
+  top: -14%;
+  z-index: 1;
+}
+.icon-me-only{
+  background-image: url('../assets/images/icon-meOnly.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+}
+.icon-partner{
+  background-image: url('../assets/images/icon-meAndPartner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 62px;
+  height: 65px;
+  margin: 0 auto;
+}
+.icon-retirement{
+  background-image: url('../assets/images/icon-retirement.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+}
+.icon-something-else{
+  background-image: url('../assets/images/icon-somethingElse.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+}

@@ -1,0 +1,75 @@
+/**
+ * Created by jainpri on 1/9/2017.
+ */
+{
+  "questions":[
+    {
+      "title": "This account is for",
+      "buttons":[{
+        "name": "Just Me",
+        "action": "next", // possible values - next, message
+        "image": "icon_partner"
+      },
+        {
+          "name": "Me and a Partner",
+          "action": "next",
+          "image": "icon_me_only"
+        }]
+    },
+    {
+      "title": "I am investing for",
+      "buttons":[{
+        "name": "Retirement",
+        "action": "next",
+        "image": "icon_retirement",
+        "description": "for income after you've stopped working"
+      },
+        {
+          "name": "Something Else",
+          "action": "next",
+          "image": "icon_something_else",
+          "description": "for something like a house or a car"
+        }]
+    },
+    {
+      "title": "And my preferred account type is",
+      "helpText": "Help me choose",
+      "helpMessage": {
+          "heading": "Help me Choose",
+          "text": "A tax-advantaged account, such as an IRA, can provide tax savings for many investors and may be a good way to increase the amount of money you have in retirement. However, there are limits on the amount you can contribute in any given year."
+      },
+      "buttons":[{
+        "name": "Tax advantaged",
+        "action": "next",
+        "description": "for example an IRA"
+      },
+        {
+          "name": "Taxable",
+          "action": "next",
+          "description": "for example, a brokerage account"
+        }]
+    },
+    {
+      "title": "Where would you be most comfortable placing yourself on the risk tolerance scale from 1 to 10 ?",
+      "helpText": "What does this mean?",
+      "helpMessage": {
+         "heading": "Selecting Risk Tolerance",
+         "text": "Your risk tolerance is an important component of the investment strategy we suggest. In general, a higher comfort with risk translates into a more aggressive strategy, with a greater portion of your assets in stocks."
+      },
+      "scale":{
+          "range":{
+              "start": "1",
+              "end": "10"
+          },
+          "text":{
+             "start":["Less Risk","Minimize short-term losses"],
+             "end":["More Risk","Maximize total returns"]
+          }
+      },
+      "errorMessage":"Please select a value for risk tolerance."
+    }
+  ],
+  "currentQuestion": 0,
+  "displayMessage": "",
+  "userResponse": ""
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+//Configuration and helpers
+@import 'abstracts/index';
+
+//Vendors
+@import 'vendors/index';
+
+//base files
+@import 'base/index';
+
+//Layout-related sections
+@import 'layout/index';
+
+//Components
+@import 'components/index';
+
+//Page-specific styles
+@import 'pages/index';
+
+//Themes
+@import 'themes/index';
+
+
+

@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+
+.header{
+  background-color: #efefef;
+  margin: 0;
+  padding: 6px;
+
+  &__logo{
+    @include size(60px, 60px);
+    margin: 6px 10px;
+    background: url("../assets/images/gs_logo.png") no-repeat;
+  }
+
+  &__userName{
+
+  }
+}
+

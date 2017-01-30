@@ -1,0 +1,34 @@
+.sliderBox{
+  height: 80px;
+  padding: 30px;
+  background-color: #e1edfb ;
+}
+.rc-slider{
+  width: 50%;
+  margin: 0 auto;
+}
+.rc-slider-rail{
+  background-color: gray;
+  height:2px;
+}
+.rc-slider-dot{
+  bottom: -5px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid gray;
+  background-color: gray;
+}
+.rc-slider-handle{
+  width: 32px;
+  height: 32px;
+  cursor: move;
+  border: solid 2px #fff;
+  background-color: orange;
+  margin-top: -15px;
+}
+.chart-wrapper{
+  width: 60%;
+  margin: 30px;
+  display: inline-block;
+
+}

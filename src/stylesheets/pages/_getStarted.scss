@@ -1,0 +1,21 @@
+//get started page styles
+
+
+.home-container{
+  @include size(100%, 100%);
+  background: #fdee81 url("../assets/images/travel.jpg") no-repeat;
+}
+
+.displayBox{
+  @include size(350px, 350px);
+  float: right;
+  margin: 100px 18%;
+  background-color: rgba(130, 124, 124, 0.58);
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  &__row{
+     margin-bottom: 30px;
+  }
+}
